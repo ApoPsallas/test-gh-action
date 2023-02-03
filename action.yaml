@@ -1,0 +1,5 @@
+name: "get PR labels"
+description: "gets PR labels on merge"
+runs:
+  using: node12
+  main: index.js
