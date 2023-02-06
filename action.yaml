@@ -1,5 +1,8 @@
 name: "get PR labels"
 description: "gets PR labels on merge"
+outputs:
+  passed:
+    description: 'got labels'
 runs:
   using: node16
   main: index.js

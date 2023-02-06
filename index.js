@@ -15,7 +15,7 @@ async function run(){
           })
       
           const prLabels = labelsOnIssue.map(item => item.name)
-
+          console.log(prLabels);
           return core.setOutput("labels",prLabels)
     }  catch (error) {
         core.setFailed(error.message)
